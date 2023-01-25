@@ -1,75 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Sir Tim Berners-Lee</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="***" rel="stylesheet">
+    <title> meuportifolio </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-	<ul class="menu">
-		<li class="links"><a href="#inicio">***</a></li>
-		<li class="links"><a href="#videos">***</a></li>
-		<li class="links"><a href="#trabalho">***</a></li>
-		<li class="links"><a href="#escritos">***</a></li>
-		<li class="links"><a href="#contato">***</a></li>
+    <div class="container">
 
-	</ul>
-
-	<section id="inicio" class="parallax-container">
-		<div class="parallax-inner">
-			<img src="stbl.jpg" class="perfil" />
-			<h1>Eu sou <br><span id="nome">Tim Berners-Lee</span></h1>
-			<h2> Sou o fundador da www: World Wide Web</h2>
-		</div>
-	</section>
-
-	<section id="bio">
-		<h1>Olá!</h1>
-		<div class="linha"></div>
-		<p>Tim Berners-Lee é um engenheiro de software que inventou a Internet (ou a World Wide Web) em 1989 enquanto em
-			CERN, o Laboratório Europeu de Física de Partículas.
-			
-			Ele é diretor do World Wide Web Consortium que fundou e Professor no Departamento de Ciência da Computação
-			da Universidade de Oxford.
-			
-			Em 2001 tornou-se Fellow da Royal Society e em 2004 foi nomeado cavaleiro. <br /> <br /> Em 1994 Berners-Lee
-			fundou o World Wide Web Consortium (W3C) no Laboratório de Ciência da Computação (LCS) em Massachusetts
-			Instituto de Tecnologia de Boston. Era formado por empresas que queriam trabalhar juntas para criar a Web
-			padrões e também melhorar a web. Foi rapidamente acordado que a tecnologia deveria ser isenta de royalties
-			e patentes. Berners-Lee atua como diretor deste W3C desde que foi fundado.
-			
-			Em 1995, a Microsoft produziu a primeira versão do Internet Explorer e este navegador comercial criou
-			enorme crescimento em sites e usuários da web.
-			
-			A Web foi usada pela primeira vez para comércio eletrônico em 1997.</p>
-	</section>
-
-	<section id="videos">
-        <h1>***</h1>
-        <div class="linha"></div>
-        <br>
-        ***
-        <br>
-        ***
-    </section>
-
-	<section id="trabalho">
-        <h1>***</h1>
-        <div class="line"></div>
-        ***
-    </section>
-
-    <section id="escritos">
-        <h1>***</h1>
-        <div class="line"></div>
-        <a href=***>As três ameaças que pairam sobre a web</a>
-        <br>
-        <a href=***>Artigo em inglês: How Did Tim Berners-Lee Change the World With the World Wide Web?</a>
-    </section>
+        <section id="app">
+            <h1>Aplicativos</h1>
+            <div class="line"></div>
+           <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/gUGz875q6uYLyje5TQPmGhd-5QKaJOXULP__9LDwdUE/embed"></iframe>
+            <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/cQ-l-04baZnNGHzLVSmn2iG8sUu3vICRJxCLj2N9g8Y/embed"></iframe>
+        </section>
 
 
+
+        <h2>Clique no jogo desejado para comecar!</h2>
+
+        <h5>Esses jogos foram criados no laboratorio de jogos. Clique para jogar</h5>
+
+        <div id="myCarousel" class="carousel slide">
+            <center>
+                <!-- Para envolver os slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <a href="https://studio.code.org/projects/applab/cQ-l-04baZnNGHzLVSmn2iG8sUu3vICRJxCLj2N9g8Y/" target="_blank">
+                            <img src="game1.png">
+                        </a>
+                        <p>Jogo do pedra papel tesoura</p>
+                    </div>
+
+                    <div class="item">
+                        <a href="https://studio.code.org/projects/applab/gUGz875q6uYLyje5TQPmGhd-5QKaJOXULP__9LDwdUE/" target="_blank">
+                            <img src="game2.png">
+                        </a>
+                        <p>Adivinhe</p>
+                    </div>
+                    
+                      <div class="item">
+                        <a href="studio.code.org/projects/playlab/VXY0J_InK0LdPMk3TcDlo1IYP5cmax3q-smZ8qXmlic" target="_blank">
+                            <!--adicione a fonte da imagem como "game3.PNG"-->
+                            <img src=" ">
+                        </a>
+                        <p>Pássaro caçando tortas</p>
+                    </div>
+                    
+                    <div class="item">
+                        <!--Adicione
+                        "https://studio.code.org/projects/playlab/ERGXlqxngsSUyVjawk5ZCY6Nx-BFugA7fXWZDWmyX8A"
+                         na parte href href part  -->
+                        <a href=" " target="_blank">
+                           <img src="game4.PNG">
+                        </a>
+                        <p>Verificador de Senhas</p>
+                    </div>
+
+                </div>
+
+                <!-- Controles para esquerda e direita-->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <!--Coloque a classe  "glyphicon glyphicon-chevron-right" para a tag span abaixo-->
+                    <span class=" "></span>
+                </a>
+
+            </center>
+        </div>
+
+    </div>
 
 </body>
 
